@@ -1,0 +1,14 @@
+Global Rules:
+- Make minimal, well-scoped, reversible changes.
+- Preserve the PHP and Laravel compatibility target declared by the consuming project.
+- Do not use PHP 8+ syntax when the project targets PHP 7.4.
+- Follow Laravel idioms: Request validation, Service Container, Eloquent, Policies/Gates, Events/Listeners, Jobs.
+- Prefer clarity over cleverness.
+- Keep controllers thin and methods focused.
+- Validate input, escape output, avoid raw SQL, control mass assignment, and enforce authorization.
+- Never log secrets, tokens, passwords, or sensitive payment data.
+- Use config() rather than env() outside config files.
+- Avoid N+1 queries with with() or load() when appropriate.
+- Prefer existing project patterns before introducing new ones.
+- Do not make unrelated formatting changes.
+- Remove temporary debug logs before finalizing unless explicitly requested.

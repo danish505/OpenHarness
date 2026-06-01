@@ -1,0 +1,10 @@
+{
+  "name": "codex-laravel-harness-browser-tests",
+  "private": true,
+  "scripts": {
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.0.0"
+  }
+}

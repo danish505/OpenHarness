@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Harness local state
+harness/harness.config.json
+harness/state/context.json
+harness/logs/*
+!harness/logs/.gitkeep
+harness/artifacts/*
+!harness/artifacts/.gitkeep
+harness/plans/plan.md
+harness/reports/implementation.md
+harness/reports/test-results.md
+harness/reports/review.md
+
+# Keep examples
+!harness/**/*.example.*
+!harness/**/.gitkeep
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
