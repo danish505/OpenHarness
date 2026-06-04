@@ -2,7 +2,7 @@
 
 When the Captain asks to run the harness:
 
-1. Read `harness/prompts/harness.md`.
+1. Read `harness/prompts/run-harness.md`.
 2. Use the planner agent to write `harness/plans/plan.md`.
 3. Use the implementer agent to read `harness/plans/plan.md` and implement the patch.
 4. Use the tester agent to write `harness/reports/test-results.md`.
