@@ -1,6 +1,8 @@
 # Run Laravel Codex Harness
 
 Execute the file-based Codex harness for the task below.
+Run Codex with only subagents + shell commands.
+Disable MCP Severs for this project
 
 ## Task
 
